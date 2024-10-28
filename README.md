@@ -1,4 +1,6 @@
 # Project Idea Generator
+<img width="642" alt="image" src="https://github.com/user-attachments/assets/fdcfffb4-5bb3-4d46-b016-aee98bf7776e">
+
 
 ## Project Description
 
