@@ -41,9 +41,9 @@ Install Dependencies: Navigate to both the client and server directories to inst
 cd server
 npm install
 ```
-# In the client directory (for frontend dependencies)
+# In the root of the project (for frontend dependencies)
 ```
-cd ../client
+cd idea-generator
 npm install
 ```
 Set Up Environment Variables:
