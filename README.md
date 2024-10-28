@@ -70,20 +70,27 @@ npm start
 ```
 The frontend will be available at http://localhost:3000 and the backend API at http://localhost:5000.
 
-API Integration
+# API Integration
 This project utilizes the OpenAI GPT-4 API to generate project ideas based on the content of uploaded PDFs and specified topics.
 
 API Endpoint: /api/generate-ideas
+
 API Model: gpt-4
+
 Usage: After extracting text from the uploaded PDF, the text and topic are sent to the OpenAI API, which then generates a list of project ideas that are displayed in the frontend.
 The OpenAI API is configured in the backend with a POST request, using createChatCompletion to generate ideas based on user-provided content. The API key is securely stored in the .env file and loaded at runtime.
 
-Key Dependencies
+# Key Dependencies
+
 express: For handling server requests and API endpoints.
+
 pdf-parse: For extracting text from PDF files.
+
 openai: Official OpenAI API library for interacting with the GPT-4 model.
+
 react: Frontend library used to build the user interface.
-Credits
+
+# Credits
 This project was developed with the help of OpenAI's GPT-4 for generating project ideas based on uploaded assignment content. Portions of the backend API code and integration suggestions were AI-generated to streamline API usage and ensure efficient handling of user requests.
 
 Additionally, parts of this README and setup instructions were created with the assistance of AI to ensure clarity and comprehensiveness.
