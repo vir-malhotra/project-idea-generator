@@ -1,0 +1,30 @@
+.topic-input {
+    margin-bottom: 24px;
+    text-align: left;
+  }
+  
+  .topic-label {
+    font-size: 1rem;
+    color: #7f8c8d;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    display: inline-block;
+  }
+  
+  .topic-textbox {
+    width: 100%;
+    padding: 12px;
+    background-color: #ecf0f1;
+    border: 2px solid #ecf0f1;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #34495e;
+    transition: all 0.3s ease;
+  }
+  
+  .topic-textbox:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+    outline: none;
+  }
+  
