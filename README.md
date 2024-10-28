@@ -91,6 +91,48 @@ openai: Official OpenAI API library for interacting with the GPT-4 model.
 react: Frontend library used to build the user interface.
 
 # Credits
-This project was developed with the help of OpenAI's GPT-4 for generating project ideas based on uploaded assignment content. Portions of the backend API code and integration suggestions were AI-generated to streamline API usage and ensure efficient handling of user requests.
+Credits for AI-Generated Code Portions
 
-Additionally, parts of this README and setup instructions were created with the assistance of AI to ensure clarity and comprehensiveness.
+This project was developed with significant assistance from OpenAI’s ChatGPT, which contributed code suggestions, architectural guidance, and implementation insights. Below is a detailed breakdown of how AI was used throughout the project.
+
+1. Initial Project Structure and Setup
+   
+Assistance: ChatGPT provided step-by-step guidance on setting up the backend server using Express and integrating a frontend with React. The AI explained best practices for organizing the codebase into client (React) and server (Express) directories, ensuring a clear project structure.
+
+2. Backend API Design and Implementation
+   
+File Upload and PDF Parsing:
+
+ChatGPT provided a solution for handling file uploads in the backend using express-fileupload. Additionally, it recommended pdf-parse for extracting text from uploaded PDF files, with code samples on parsing PDF content efficiently.
+
+Code Provided: The middleware configuration, code for setting up file handling with express-fileupload, and guidance on using pdf-parse to extract text from PDF files were all AI-suggested.
+
+3. Frontend Component Structure and Functionality
+   
+Component Breakdown:
+
+ChatGPT provided guidance on breaking down the frontend UI into modular React components (e.g., FileUpload, TopicInput, IdeaList) to ensure that each part of the interface was easily manageable and reusable.
+
+Code Provided: Component structure, naming conventions, and prop-passing practices were suggested to streamline inter-component data flow.
+
+API Requests and State Management:
+
+ChatGPT assisted in setting up API requests from the frontend to the backend using axios and managing the responses with React’s useState hook. The AI explained how to structure asynchronous functions to handle API calls, loading states, and error handling in the UI.
+
+Code Provided: The handleGenerateIdeas function, which manages API calls, error handling, and state updates based on the API response, was refined with AI input. ChatGPT also suggested using FormData for sending file and topic data to the backend.
+
+4. Styling and UX Recommendations
+   
+CSS Styling Suggestions:
+
+ChatGPT provided ideas on how to style components to create a sleek, modern look using CSS. Suggestions included using Flexbox for layout, hover effects for interactive elements, and accessible color choices.
+
+Code Provided: Example CSS for making the application visually appealing was generated, including styling for buttons, input fields, and lists.
+
+5. Troubleshooting and Error Resolution
+   
+Debugging Assistance:
+
+Throughout development, ChatGPT provided troubleshooting help for common errors, such as Git errors during pushing to GitHub, CORS issues, and API configuration problems.
+
+Code Provided: Solutions to specific errors and general debugging tips were given, including command-line steps and configuration tweaks
